@@ -43,7 +43,7 @@ const Home = () => {
       <div className="stack-container">
         <Card
           amount={5000}
-          img="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwristwatch&psig=AOvVaw3OVtJyN0vTXBARqFi5Fite&ust=1750499506580000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjekrLd_40DFQAAAAAdAAAAABAE"
+          img="https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4bcefb11/images/Sonata/Catalog/77105SM12W_1.jpg?sw=600&sh=600"
           checkoutHandler={checkoutHandler}
         />
         <Card
