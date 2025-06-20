@@ -16,7 +16,7 @@ const Home = () => {
       key,
       amount: order.amount,
       currency: "INR",
-      name: "6 Pack Programmer",
+      name: "Amazon",
       description: "Tutorial of RazorPay",
       image: "https://avatars.githubusercontent.com/u/25058652?v=4",
       order_id: order.id,
