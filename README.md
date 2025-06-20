@@ -58,10 +58,15 @@ Verifies the payment using signature and stores the result
 💡 Example Flow
 
   1.User clicks Pay Now in frontend
+  
   2.Frontend calls GET /api/getkey to get Razorpay key
+  
   3.Frontend calls POST /api/checkout with amount
+  
   4.Razorpay Checkout is initialized
+  
   5.On successful payment, frontend calls POST /api/paymentverification with payment details
+  
   6.Backend verifies signature and confirms transaction
 
 🔒 Security
