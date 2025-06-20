@@ -26,7 +26,7 @@ Works in Razorpay Test Mode
 
   1. Clone the Repository
 
-  git clone https://github.com/yourusername/razorpay-payment-integration.git
+  git clone https://github.com/Md-hasrat/Razer-payment.git
   
   cd razorpay-payment-integration
 
