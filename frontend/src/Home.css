@@ -1,10 +1,13 @@
 .home-container {
   display: flex;
-  height: 100vh;
-  align-items: center;
+  /* Remove fixed height: 100vh; */
+  min-height: 100vh; /* Use min-height so it expands if content is larger */
+  align-items: flex-start; /* Align items to the start (top) instead of center */
   justify-content: center;
   background-color: #f7fafc;
   padding: 20px;
+  /* Add overflow-y: auto; for scrolling if content exceeds viewport, though min-height and flex-start usually handle it */
+  overflow-y: auto; 
 }
 
 .stack-container {
@@ -13,4 +16,7 @@
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  /* Add some top margin to ensure space at the very top, especially if there's other header content */
+  margin-top: 20px; 
+  margin-bottom: 20px; /* Also add bottom margin for consistency */
 }
