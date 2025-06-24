@@ -11,7 +11,7 @@ const Card = ({ amount, img, checkoutHandler }) => { // Removed 'title' prop
         {/* Removed the <h3 className="card-title">{title || "Product Name"}</h3> line */}
         <p className="card-price">₹{amount}</p>
         <button className="card-button" onClick={() => checkoutHandler(amount)}>
-          Add to Cart
+          Buy Now
         </button>
       </div>
     </div>
