@@ -146,8 +146,6 @@ export const paymentVerification = async (req, res) => {
 
 
 
-import crypto from "crypto";
-import { Payment } from "../models/payment.model.js";
 
 // const RAZORPAY_KEY_SECRET = process.env.RAZORPAY_KEY_SECRET;
 
